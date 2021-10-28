@@ -1,0 +1,437 @@
+
+.h1{
+  line-height: 4px;
+  
+}
+ body {
+  font-size: calc(30px + 2vmin);
+  background-color: rgb(200, 200, 224);
+  padding: 8px;
+  color: rgb(48, 46, 46);
+  margin:20px 20px;
+  text-align: center;
+}
+
+p.t_prompt{
+  line-height: 1%;
+  font-size: 25px;
+}
+
+
+/*
+.list-Items{
+width: 100%;
+  
+}
+.list-Stores{
+width: 100%;
+}
+
+button{
+font-size: calc(3px + 2vmin);
+color: rgb(48, 46, 46);
+}
+/* table {
+border-collapse: collapse;
+width: 100%;
+}
+
+caption{
+color: rgb(48, 46, 46);
+font-size: calc(30px + 2vmin);
+}
+
+th, td {
+
+padding: 8px;
+text-align: center;
+border: 1px solid rgb(138, 129, 129);
+
+}
+
+tr:nth-child(even){background-color: #f1f1f1}
+tr:hover {background-color: #dfdfdf;}
+
+th {
+background-color: #357538;
+color: white;
+}
+
+fieldset{
+font-size: calc(3px + 2vmin);
+color: rgb(139, 180, 185);
+}
+legend{
+font-size: calc(10px + 2vmin);
+}
+
+label{
+font-size: calc(10px + 2vmin);
+}
+input{
+font-size: calc(10px + 2vmin);
+} */ 
+
+/* button {
+  
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #766ebd;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: 350px;
+  font-size: 20px;
+  padding: 20px;
+  
+  
+  
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+} */
+
+.r_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;   
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.r_button:hover {background-color: #3e8e41}
+
+.r_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.tourist {
+  background-color: rgba(255, 255, 255, 0.904); 
+  color: black; 
+  border: 3px solid #92adcc;
+  padding: 16px 32px;
+  font-size: 16px;
+  width: 250px;
+  text-align: center;
+}
+
+.tourist:hover {
+  background-color: #8fabbd;
+  color: rgb(59, 65, 68);
+}
+
+
+
+.button1 {
+ 
+  
+  background-color: #5c4ca0; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: -20px 2px; */
+  margin-left: 2px;
+  margin-bottom: 0%;
+  padding-top: 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.g_weather {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #5b4ba3;
+}
+.g_weather:hover {
+  background-color: #3f447e;
+  color: white;
+}
+
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 16px;
+  
+}
+/* Tooltip 文本 */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  margin-left: -60px;
+  /* 定位 */
+  position: absolute;
+  z-index: 1;
+}
+
+/* 鼠标移动上去后显示提示框 */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*------------Inferface------------*/
+.weather {
+  position: relative;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin-top: 2%;
+}
+
+/* Tooltip 文本 */
+.weather .weathertext {
+  visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+/* 鼠标移动上去后显示提示框 */
+.weather:hover .weathertext {
+  visibility: visible;
+}
+
+
+
+
+#logo {
+  border-radius: 25px;
+  border: 2px solid #88adc2;
+  padding: 20px; 
+  width: 600px;
+  height: 180px;    
+
+  text-align: center;
+  font-size:50px;
+
+  width: 600px; 
+margin: 0 auto; 
+background: rgb(135, 189, 189);
+}
+
+#dishes1{
+  border-radius: 25px;
+  border: 2px solid #88adc2;
+  padding: 20px; 
+  width: 300px;
+  height: 100px;    
+
+  text-align: center;
+  font-size:30px;
+  margin-top:0px; /*上方邊界*/
+  margin-left:10px; /*左方邊界*/
+}
+
+#dishes2{
+  border-radius: 25px;
+  border: 2px solid #88adc2;
+  padding: 20px; 
+  width: 300px;
+  height: 100px;    
+
+  text-align: center;
+  font-size:30px;
+  margin-top:-180px; /*上方邊界*/
+  margin-left:450px; /*左方邊界*/
+}
+
+#dishes3{
+  border-radius: 25px;
+  border: 2px solid #88adc2;
+  padding: 20px; 
+  width: 300px;
+  height: 100px;    
+
+  text-align: center;
+  font-size:30px;
+  margin-top:20px; /*上方邊界*/
+  margin-left:10px; /*左方邊界*/
+}
+
+#drink{
+  border-radius: 25px;
+  border: 2px solid #88adc2;
+  padding: 20px; 
+  width: 300px;
+  height: 100px;    
+
+  text-align: center;
+  font-size:30px;
+  margin-top:-180px; /*上方邊界*/
+  margin-left:450px; /*左方邊界*/
+  margin-bottom: 0px;
+}
+
+.choice {
+  background-color: #3b3570; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.choice:hover {
+  background-color: #3e466b;
+}
+.myBtn{
+  position:absolute;
+  padding-bottom: -2%;
+}
+/* 弹窗 (background) */
+.modal {
+  display: none; /* 默认隐藏 */
+  position: fixed; /* 固定定位 */
+  z-index: 1; /* 设置在顶层 */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* 弹窗内容 */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+/* 关闭按钮 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.coin{
+  position: relative;
+  width: 100px;
+  height: 2px;    
+  padding: 30px;
+  font-size: 10px;
+  margin-top: 2%;
+  margin-left: 5%;
+  border: 1px solid rgb(130, 131, 153);
+}
+.news {
+  width: 300px;
+  height: 500px;    
+  padding: 50px;
+  border: 1px solid red;
+  margin-left: 900px;
+  margin-top: -650px;
+  font-size: 30px;
+}
+/* 添加动画 */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+/* 
+.App {
+text-align: center;
+} */
+
+.App-logo {
+height: 40vmin;
+pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+}
+
+/* .App-header {
+background-color: #ffffff;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: rgb(0, 0, 0);
+
+width: 100%;
+} */
+
+.App-link {
+color: #3d95ad;
+}
+
+@keyframes App-logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}

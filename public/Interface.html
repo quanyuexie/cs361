@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/App.css">
+</head>
+<body>
+<script>
+    function myFunction(){
+        var x;
+        var weathers = ["Sunny","Cloudy","Rainy","Snowy"];
+        var randomweathers = weathers[Math.floor(Math.random()*weathers.length)]; //pluck a random weather
+        x = document.getElementById("demo");
+       x.innerHTML = randomweathers;
+    }
+</script>
+        
+        <div class = "Greeting">Hey xxx, welcome!</h5>
+          <div class="weather">Here
+          <span class="weathertext">Note: The weather will be randomly generated! 
+          Weather will affect today's passenger flow. Decrease in the following order:
+          sunny, cloudy, rainy, snow</span>
+          </div>
+
+          <div class="coin">Your gold coin: 1000</div>
+          
+          
+          
+          <button class="button1 g_weather" onclick="myFunction()">Click me!!</button>
+          <div id = "demo">Weather Today</div>
+
+
+          <p id="dishes1">pick dishes1 in here</p> 
+          <p id="dishes2">pick dishes2 in here</p> 
+          <p id="dishes3">pick dishes3 in here</p> 
+          <p id="drink">pick drink in here</p> 
+    
+    
+    
+          <button class="choices">1</button>
+          <button class="choices">2</button>
+          <button class="choices">3</button>
+          <button class="choices">4</button>
+          <button class="choices">5</button>
+          <button class="choices">6</button>
+          <button class="choices">7</button>
+          <button class="choices">8</button>
+          <button class="choices">9</button>
+          <button class="choices">10</button>
+          <button class="choices">11</button>
+          <button class="choices">12</button>
+    
+          
+          <div class="news">Feel free to have a newspaper here!</div>     
+
+<button id="myBtn">End the game</button>
+
+<div id="myModal" class="modal">
+
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>congratulations!!!</h3>
+      <h5>You got an coupon for xxx restaurant!</h5>
+      <h6>Note* coupon has been send to your email</h6>
+       
+        <h6>Want to play again? </h6>
+        <a href = "./Interface.html">
+        <button class="interface">Click here!</button></a>
+  </div>
+   <script>
+  
+//   !!!!!!NOTE!!!!!The pop-up window part refers to the network tutorial, and will be updated in the next
+    // 获取弹窗
+    var modal = document.getElementById('myModal');
+     
+    // 打开弹窗的按钮对象
+    var btn = document.getElementById("myBtn");
+     
+    // 获取 <span> 元素，用于关闭弹窗
+    var span = document.querySelector('.close');
+     
+    // 点击按钮打开弹窗
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+     
+    // 点击 <span> (x), 关闭弹窗
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+     
+    // 在用户点击其他地方时，关闭弹窗
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }</script>       
+
+
+    
+ 
+</body>
+</html>
